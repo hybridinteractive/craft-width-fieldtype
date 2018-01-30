@@ -11,8 +11,8 @@
         "width fieldtype"
     ],
     "support": {
-        "docs": "https://github.com/Rias500/width-fieldtype/blob/master/README.md",
-        "issues": "https://github.com/Rias500/width-fieldtype/issues"
+        "docs": "https://github.com/Rias500/craft-width-fieldtype/blob/master/README.md",
+        "issues": "https://github.com/Rias500/craft-width-fieldtype/issues"
     },
     "license": "MIT",
     "authors": [
@@ -41,7 +41,7 @@
         "schemaVersion": "1.0.0",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/Rias500/width-fieldtype/master/CHANGELOG.md",
+        "changelogUrl": "https://raw.githubusercontent.com/Rias500/craft-width-fieldtype/master/CHANGELOG.md",
         "class": "rias\\widthfieldtype\\WidthFieldtype"
     }
 }
