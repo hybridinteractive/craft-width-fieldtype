@@ -235,9 +235,9 @@ class Width extends Field
     {
         return [
             'full'       => Craft::t('width-fieldtype', 'Full'),
-            '2/3'     => Craft::t('width-fieldtype', 'Two-Thirds'),
-            '1/2'      => Craft::t('width-fieldtype', 'Half'),
-            '1/3'       => Craft::t('width-fieldtype', 'One-Third'),
+            '2/3'        => Craft::t('width-fieldtype', 'Two-Thirds'),
+            '1/2'        => Craft::t('width-fieldtype', 'Half'),
+            '1/3'        => Craft::t('width-fieldtype', 'One-Third'),
         ];
     }
 }
