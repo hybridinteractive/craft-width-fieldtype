@@ -1,0 +1,60 @@
+{#
+/**
+ * Width Fieldtype plugin for Craft CMS
+ *
+ * Width Field Settings
+ *
+ * @author    Rias
+ * @copyright Copyright (c) 2017 Rias
+ * @link      https://rias.be
+ * @package   WidthFieldtype
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{% do view.registerAssetBundle("rias\\widthfieldtype\\assetbundles\\widthfieldtype\\WidthFieldtypeAsset") %}
+
+{% set input %}
+    <table class="data">
+        {% for option in allOptions %}
+            <tr>
+                <td>
+                    {{ forms.lightswitch({
+                        on: settings.options[option] ?? false,
+                        small: true,
+                        name: 'options['~option~']'
+                    }) }}
+                </td>
+                <td>
+                    <span class="width-icon-{{ option }}"></span>
+                </td>
+                <td class="code">
+                    {{ option|t('width-fieldtype') }}
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endset %}
+
+{{ forms.field({
+    label: "Options"|t('width-fieldtype'),
+    instructions: "Choose which width options should be available to your field."|t('width-fieldtype'),
+}, input) }}
+
+<div class="field">
+    <div class="heading">
+        <label>{{ "Default" | t('width-fieldtype') }}</label>
+        <div class="instructions"><p>{{ "Choose a default width" | t('width-fieldtype') }}</p>
+        </div>
+    </div>
+
+    <div id="{{ id }}" class="btngroup big">
+        {% for option, label in allOptions %}
+            <div title="{{ label|t('width-fieldtype') }}" class="btn big {% if settings.default is not empty and settings.default == label %} active{% endif %} width-icon-{{ label }}" data-option="{{ label }}"></div>
+        {% endfor %}
+    </div>
+
+    <input type="hidden" name="default" value="{{ settings.default }}">
+</div>
