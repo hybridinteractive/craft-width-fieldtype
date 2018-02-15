@@ -24,14 +24,6 @@
 return [
     'Width'                                                             => 'Breedte',
     'Choose which width options should be available to your field.'     => 'Kies welke breedte opties er beschikbaar moeten zijn voor dit veld.',
-    'Full'                                                              => 'Volledig',
-    'full'                                                              => 'Volledig',
-    '1/2'                                                               => 'Half',
-    '1/3'                                                               => 'Eén derde',
-    '2/3'                                                               => 'Twee derde',
-    'One-Third'                                                         => 'Eén derde',
-    'Two-Thirds'                                                        => 'Twee derde',
-    'Half'                                                              => 'Half',
     'Default'                                                           => 'Standaardwaarde',
     'Choose a default width'                                            => 'Kies een standaard breedte',
 ];

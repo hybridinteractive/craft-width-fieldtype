@@ -28,7 +28,7 @@
                     }) }}
                 </td>
                 <td>
-                    <span class="width-icon-{{ option }}"></span>
+                    <img width="30" src="{{ craft.app.assetManager.getPublishedUrl('@rias/widthfieldtype/assetbundles/widthfieldtype/dist/img', true, option|replace('/', '-') ~ '.svg') }}" alt="">
                 </td>
                 <td class="code">
                     {{ option|t('width-fieldtype') }}
@@ -50,9 +50,11 @@
         </div>
     </div>
 
-    <div id="{{ id }}" class="btngroup big">
+    <div id="{{ id }}" class="btngroup">
         {% for option, label in allOptions %}
-            <div title="{{ label|t('width-fieldtype') }}" class="btn big {% if settings.default is not empty and settings.default == label %} active{% endif %} width-icon-{{ label }}" data-option="{{ label }}"></div>
+            <div title="{{ label|t('width-fieldtype') }}" class="btn width-button {% if settings.default is not empty and settings.default == label %} active{% endif %}" data-option="{{ label }}">
+                <img src="{{ craft.app.assetManager.getPublishedUrl('@rias/widthfieldtype/assetbundles/widthfieldtype/dist/img', true, label|replace('/', '-') ~ '.svg') }}" alt="">
+            </div>
         {% endfor %}
     </div>
 

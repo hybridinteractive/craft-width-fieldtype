@@ -234,10 +234,18 @@ class Width extends Field
     private static function getOptions()
     {
         return [
+            '1/6'       => Craft::t('width-fieldtype', '1/6'),
+            '1/5'       => Craft::t('width-fieldtype', '1/5'),
+            '1/4'       => Craft::t('width-fieldtype', '1/4'),
+            '1/3'       => Craft::t('width-fieldtype', '1/3'),
+            '2/5'       => Craft::t('width-fieldtype', '2/5'),
+            '1/2'       => Craft::t('width-fieldtype', '1/2'),
+            '3/5'       => Craft::t('width-fieldtype', '3/5'),
+            '2/3'       => Craft::t('width-fieldtype', '2/3'),
+            '3/4'       => Craft::t('width-fieldtype', '3/4'),
+            '4/5'       => Craft::t('width-fieldtype', '4/5'),
+            '5/6'       => Craft::t('width-fieldtype', '5/6'),
             'full'       => Craft::t('width-fieldtype', 'Full'),
-            '2/3'        => Craft::t('width-fieldtype', 'Two-Thirds'),
-            '1/2'        => Craft::t('width-fieldtype', 'Half'),
-            '1/3'        => Craft::t('width-fieldtype', 'One-Third'),
         ];
     }
 }
