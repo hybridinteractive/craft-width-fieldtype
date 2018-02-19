@@ -16,7 +16,7 @@
 
 <div id="{{ id }}" class="btngroup">
     {% for option, label in allOptions %}
-        {% if field.options[option] %}
+        {% if field.options[option] is defined and field.options[option] %}
             <div title="{{ label|t('width-fieldtype') }}" class="btn width-button {% if value is not null ? option == value : field.default == option %} active{% endif %}" data-option="{{ option }}">
                 <img src="{{ craft.app.assetManager.getPublishedUrl('@rias/widthfieldtype/assetbundles/widthfieldtype/dist/img', true, label|replace('/', '-') ~ '.svg') }}" alt="">
             </div>
