@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.0.4 - 2018-04-23
+### Fixes
+- Fixed an issue with the "full" icon
+
 ## 1.0.3 - 2018-03-08
 ### Fixes
 - Fixed an issue where the full width icon wasn't showing up (thanks @lukeyouell)
