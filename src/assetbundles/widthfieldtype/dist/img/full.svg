@@ -1,16 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>full</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" transform="translate(-41.000000, -37.000000)">
-            <g id="full" transform="translate(41.000000, 37.000000)">
-                <rect id="Fill" fill="#27323E" x="0" y="0" width="100" height="100"></rect>
-                <text id="1/1" font-family="SourceCodePro-Bold, Source Code Pro" font-size="40" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="14" y="60">1/1</tspan>
-                </text>
-                <path d="M4,4 L4,96 L96,96 L96,4 L4,4 Z M0,0 L100,0 L100,100 L0,100 L0,0 Z" id="Border" fill="#27323E" fill-rule="nonzero"></path>
-            </g>
+        <g id="full" fill-rule="nonzero">
+            <rect id="Fill" fill="#27323E" x="0" y="0" width="100" height="100"></rect>
+            <path d="M34.2,56.64 L34.2,61.4 L16,61.4 L16,56.64 L22.56,56.64 L22.56,41.96 L17.32,41.96 L17.32,38.32 C18.8133408,38.053332 20.0866614,37.7333352 21.14,37.36 C22.1933386,36.9866648 23.186662,36.533336 24.12,36 L28.44,36 L28.44,56.64 L34.2,56.64 Z M44.6,67.8 L39.68,67.8 L52.84,33 L57.76,33 L44.6,67.8 Z M84.2,56.64 L84.2,61.4 L66,61.4 L66,56.64 L72.56,56.64 L72.56,41.96 L67.32,41.96 L67.32,38.32 C68.8133408,38.053332 70.0866614,37.7333352 71.14,37.36 C72.1933386,36.9866648 73.186662,36.533336 74.12,36 L78.44,36 L78.44,56.64 L84.2,56.64 Z" id="Shape" fill="#FFFFFF"></path>
+            <path d="M4,4 L4,96 L96,96 L96,4 L4,4 Z M0,0 L100,0 L100,100 L0,100 L0,0 Z" id="Border" fill="#27323E"></path>
         </g>
     </g>
 </svg>
