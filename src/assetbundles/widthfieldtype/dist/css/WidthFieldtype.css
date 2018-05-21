@@ -7,3 +7,8 @@
 .btn.width-button img {
     max-width: 100%;
 }
+
+.width-fieldtype.btngroup {
+    flex-wrap: wrap;
+    height: auto;
+}

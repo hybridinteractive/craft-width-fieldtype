@@ -14,7 +14,7 @@
 
 {% import "_includes/forms" as forms %}
 
-<div id="{{ id }}" class="btngroup">
+<div id="{{ id }}" class="width-fieldtype btngroup">
     {% for option, label in allOptions %}
         {% if field.options[option] is defined and field.options[option] %}
             <div title="{{ label|t('width-fieldtype') }}" class="btn width-button {% if value is not null ? option == value : field.default == option %} active{% endif %}" data-option="{{ option }}">
