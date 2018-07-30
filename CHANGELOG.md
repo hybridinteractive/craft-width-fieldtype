@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.0.6 - 2018-07-30
+### Changed
+- Improve active state
+
 ## 1.0.5 - 2018-05-21
 ### Fixes
 - Icons now wrap when constrained
