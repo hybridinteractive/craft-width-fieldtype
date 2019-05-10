@@ -1,7 +1,7 @@
 ![Icon](./src/icon.svg)
 
-[![Latest Version](https://img.shields.io/github/release/rias500/craft-width-fieldtype.svg?style=flat-square)](https://github.com/rias500/craft-width-fieldtype/releases)
-[![Quality Score](https://img.shields.io/scrutinizer/g/rias500/craft-width-fieldtype.svg?style=flat-square)](https://scrutinizer-ci.com/g/rias500/craft-width-fieldtype)
+[![Latest Version](https://img.shields.io/github/release/riasvdv/craft-width-fieldtype.svg?style=flat-square)](https://github.com/riasvdv/craft-width-fieldtype/releases)
+[![Quality Score](https://img.shields.io/scrutinizer/g/riasvdv/craft-width-fieldtype.svg?style=flat-square)](https://scrutinizer-ci.com/g/riasvdv/craft-width-fieldtype)
 [![StyleCI](https://styleci.io/repos/119550758/shield)](https://styleci.io/repos/119550758)
 [![Total Downloads](https://img.shields.io/packagist/dt/rias/craft-width-fieldtype.svg?style=flat-square)](https://packagist.org/packages/rias/craft-width-fieldtype)
 
