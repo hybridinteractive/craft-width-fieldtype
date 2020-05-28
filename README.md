@@ -1,7 +1,7 @@
 ![Icon](./src/icon.svg)
 
-[![Latest Version](https://img.shields.io/github/release/riasvdv/craft-width-fieldtype.svg?style=flat-square)](https://github.com/riasvdv/craft-width-fieldtype/releases)
-[![Quality Score](https://img.shields.io/scrutinizer/g/riasvdv/craft-width-fieldtype.svg?style=flat-square)](https://scrutinizer-ci.com/g/riasvdv/craft-width-fieldtype)
+[![Latest Version](https://img.shields.io/github/release/hybridinteractive/craft-width-fieldtype.svg?style=flat-square)](https://github.com/hybridinteractive/craft-width-fieldtype/releases)
+[![Quality Score](https://img.shields.io/scrutinizer/g/hybridinteractive/craft-width-fieldtype.svg?style=flat-square)](https://scrutinizer-ci.com/g/hybridinteractive/craft-width-fieldtype)
 [![StyleCI](https://styleci.io/repos/119550758/shield)](https://styleci.io/repos/119550758)
 [![Total Downloads](https://img.shields.io/packagist/dt/rias/craft-width-fieldtype.svg?style=flat-square)](https://packagist.org/packages/rias/craft-width-fieldtype)
 
@@ -11,15 +11,13 @@ Let users choose from predefined widths
 
 ![Screenshot](resources/img/plugin-screenshot.png)
 
-## Support Open Source. Buy beer.
+## Support Open Source.
 
-This plugin is licensed under a MIT license, which means that it's completely free open source software, and you can use it for whatever and however you wish. If you're using it and want to support the development, buy me a beer over at Beerpay!
-
-[![Beerpay](https://beerpay.io/riasvdv/craft-width-fieldtype/badge.svg?style=beer-square)](https://beerpay.io/riasvdv/craft-width-fieldtype)
+This plugin is licensed under a MIT license, which means that it's completely free open source software, and you can use it for whatever and however you wish.
 
 ## Requirements
 
-This plugin requires Craft CMS 3.0.0-beta.23 or later.
+This plugin requires Craft CMS 3.0.0.
 
 ## Installation
 
@@ -31,8 +29,8 @@ To install the plugin, follow these instructions.
 
 2. Then tell Composer to load the plugin:
 
-        composer require rias/craft-width-fieldtype
+        composer require hybridinteractive/craft-width-fieldtype
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Width Fieldtype.
 
-Brought to you by [Rias](https://rias.be)
+Brought to you by [Hybrid Interactive](https://hybridinteractive.io/)

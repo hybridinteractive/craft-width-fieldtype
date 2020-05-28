@@ -1,8 +1,8 @@
 {
-    "name": "rias/craft-width-fieldtype",
+    "name": "hybridinteractive/craft-width-fieldtype",
     "description": "Let users choose from predefined widths",
     "type": "craft-plugin",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "keywords": [
         "craft",
         "cms",
@@ -11,18 +11,18 @@
         "width fieldtype"
     ],
     "support": {
-        "docs": "https://github.com/riasvdv/craft-width-fieldtype/blob/master/README.md",
-        "issues": "https://github.com/riasvdv/craft-width-fieldtype/issues"
+        "docs": "https://github.com/hybridinteractive/craft-width-fieldtype/blob/master/README.md",
+        "issues": "https://github.com/hybridinteractive/craft-width-fieldtype/issues"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "Rias",
-            "homepage": "https://rias.be"
+            "name": "Hybrid Interactive",
+            "homepage": "https://hybridinteractive.io"
         }
     ],
     "require": {
-        "craftcms/cms": "^3.0.0-RC1"
+        "craftcms/cms": "^3.0.0"
     },
     "repositories": [
         {
@@ -41,7 +41,7 @@
         "schemaVersion": "1.0.0",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/riasvdv/craft-width-fieldtype/master/CHANGELOG.md",
+        "changelogUrl": "https://raw.githubusercontent.com/hybridinteractive/craft-width-fieldtype/master/CHANGELOG.md",
         "class": "rias\\widthfieldtype\\WidthFieldtype"
     }
 }

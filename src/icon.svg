@@ -2,7 +2,7 @@
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Artboard" transform="translate(-273.000000, -144.000000)">
             <g id="craft-width-fieldtype" transform="translate(273.000000, 144.000000)">
-                <circle id="background" fill="#4DC0B5" cx="47" cy="47" r="47"></circle>
+                <circle id="background" fill="#BADA55" cx="47" cy="47" r="47"></circle>
                 <g id="icon" transform="translate(27.000000, 27.000000)" fill="#FFFFFF" fill-rule="nonzero">
                     <path d="M0,0.891304348 L0,40.1086957 C0,40.6009495 0.388019883,41 0.866666667,41 L26,41 L26,0 L0.866666667,0 C0.388019883,0 0,0.399050549 0,0.891304348 Z" id="Shape"></path>
                     <path d="M40.0714286,0 L28,0 L28,41 L40.0714286,41 C40.5842644,41 41,40.6009495 41,40.1086957 L41,0.891304348 C41,0.399050549 40.5842644,0 40.0714286,0 Z" id="Shape"></path>
