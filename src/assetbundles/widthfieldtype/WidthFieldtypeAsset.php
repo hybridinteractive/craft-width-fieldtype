@@ -12,7 +12,6 @@
 
 namespace rias\widthfieldtype\assetbundles\widthfieldtype;
 
-use Craft;
 use craft\web\AssetBundle;
 use craft\web\assets\cp\CpAsset;
 
