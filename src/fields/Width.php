@@ -78,13 +78,11 @@ class Width extends Field
      *
      * @return array
      */
-    public function rules()
+    protected function defineRules(): array
     {
-        $rules = parent::rules();
-        $rules = array_merge($rules, [
-            ['options', 'validateOptions'],
-            ['default', 'string'],
-        ]);
+        $rules = parent::defineRules();
+        $rules[] = ['options', 'validateOptions'];
+        $rules[] = ['default', 'string'];
 
         return $rules;
     }
@@ -109,7 +107,7 @@ class Width extends Field
                 $this->addError($attribute, Craft::t('width-fieldtype', 'Invalid key in $options'));
             }
 
-            if ($value != 0 && $value != 1) {
+            if ($value != '' && $value != '1') {
                 $this->addError($attribute, Craft::t('width-fieldtype', 'Invalid value for $options[{key}].', [
                     '{key}' => $key,
                 ]));
