@@ -146,7 +146,7 @@ class Width extends Field
      *
      * @return mixed The prepared field value
      */
-    public function normalizeValue($value, ElementInterface $element = null):? string
+    public function normalizeValue($value, ElementInterface $element = null): ?string
     {
         return $value;
     }
