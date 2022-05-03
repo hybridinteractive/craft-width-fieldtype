@@ -39,7 +39,7 @@ class WidthFieldtype extends Plugin
     // =========================================================================
 
     /* @inheritdoc */
-    public function init()
+    public function init(): void
     {
         parent::init();
 

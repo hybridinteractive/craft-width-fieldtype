@@ -14,6 +14,7 @@ namespace rias\widthfieldtype\fields;
 use Craft;
 use craft\base\ElementInterface;
 use craft\base\Field;
+use phpDocumentor\Reflection\Types\This;
 use rias\widthfieldtype\assetbundles\widthfieldtype\WidthFieldtypeAsset;
 use yii\db\Schema;
 
@@ -145,7 +146,7 @@ class Width extends Field
      *
      * @return mixed The prepared field value
      */
-    public function normalizeValue($value, ElementInterface $element = null)
+    public function normalizeValue($value, ElementInterface $element = null):? string
     {
         return $value;
     }
@@ -158,7 +159,7 @@ class Width extends Field
      *
      * @return string|null
      */
-    public function getSettingsHtml()
+    public function getSettingsHtml(): string
     {
         // Register our asset bundle
         Craft::$app->getView()->registerAssetBundle(WidthFieldtypeAsset::class);
@@ -229,7 +230,7 @@ class Width extends Field
      *
      * @return array
      */
-    private static function getOptions()
+    private static function getOptions(): array
     {
         return [
             '1/6'        => Craft::t('width-fieldtype', '1/6'),

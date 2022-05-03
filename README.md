@@ -5,7 +5,7 @@
 [![StyleCI](https://styleci.io/repos/119550758/shield)](https://styleci.io/repos/119550758)
 [![Total Downloads](https://img.shields.io/packagist/dt/rias/craft-width-fieldtype.svg?style=flat-square)](https://packagist.org/packages/rias/craft-width-fieldtype)
 
-# Width Fieldtype plugin for Craft CMS 3.x
+# Width Fieldtype plugin for Craft CMS 4.x
 
 Let users choose from predefined widths
 
@@ -17,7 +17,7 @@ This plugin is licensed under a MIT license, which means that it's completely fr
 
 ## Requirements
 
-This plugin requires Craft CMS 3.0.0.
+This plugin requires Craft CMS 4.0.0-beta.3.
 
 ## Installation
 
